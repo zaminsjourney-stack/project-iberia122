@@ -1,0 +1,52 @@
+2026-10-26 23:30:45 | IP: 2400:adc3:114:9700:e41c:d8a2:c7a:e319 | User: admin | Status: SUCCESS
+2026-10-26 23:30:46 | IP: 2400:adc3:114:9700:e41c:d8a2:c7a:e319 | User: admin | Status: SUCCESS
+2026-10-26 23:30:52 | IP: 2400:adc3:114:9700:e41c:d8a2:c7a:e319 | User: admin | Status: SUCCESS
+2026-10-26 23:34:02 | IP: 2400:adc3:114:9700:e41c:d8a2:c7a:e319 | User: admin | Status: SUCCESS
+2026-10-26 23:48:29 |  * Debugger is active!
+2026-10-26 23:48:29 |  * Debugger PIN: 133-579-819
+2026-10-26 23:49:00 | WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.139:5000
+2026-10-26 23:49:00 | Press CTRL+C to quit
+2026-10-26 23:49:00 |  * Restarting with stat
+2026-10-26 23:49:01 |  * Debugger is active!
+2026-10-26 23:49:01 |  * Debugger PIN: 133-579-819
+2026-10-26 23:59:32 | INFO | IP: 2400:adc3:114:9700:e41c:d8a2:c7a:e319 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 00:03:41 | WARNING | IP: 2400:adc3:114:9700:e41c:d8a2:c7a:e319 | User: alex | Status: FAILED | Login Failed
+2026-10-27 00:04:49 | WARNING | IP: 2400:adc3:114:9700:e41c:d8a2:c7a:e319 | User: ale | Status: FAILED | Login Failed
+2026-10-27 00:05:06 | INFO | IP: 2400:adc3:114:9700:e41c:d8a2:c7a:e319 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 08:01:12 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: ascw | Status: FAILED | Login Failed
+2026-10-27 08:01:36 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: admin | Status: FAILED | Login Failed
+2026-10-27 08:01:56 | INFO | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 08:12:25 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: dscsdfve | Status: FAILED | Login Failed
+2026-10-27 08:25:50 | WARNING | IP: 2400:adc3:114:9700:6cde:78ac:2b87:5192 | User: Etfqqw | Status: FAILED | Login Failed
+2026-10-27 08:26:46 | WARNING | IP: 2400:adc3:114:9700:6cde:78ac:2b87:5192 | User: Admin | Status: FAILED | Login Failed
+2026-10-27 08:26:53 | WARNING | IP: 2400:adc3:114:9700:6cde:78ac:2b87:5192 | User: Admin | Status: FAILED | Login Failed
+2026-10-27 08:27:06 | INFO | IP: 2400:adc3:114:9700:6cde:78ac:2b87:5192 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 08:50:24 | WARNING | IP: 2400:adc3:114:9700:2c67:8eea:f5c5:5988 | User: Ewhhs | Status: FAILED | Login Failed
+2026-10-27 08:50:43 | INFO | IP: 2400:adc3:114:9700:2c67:8eea:f5c5:5988 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 08:56:03 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: alex | Status: FAILED | Login Failed
+2026-10-27 08:56:03 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: alex | Status: FAILED | Login Failed
+2026-10-27 08:56:03 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: alex | Status: FAILED | Login Failed
+2026-10-27 08:56:03 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: alex | Status: FAILED | Login Failed
+2026-10-27 08:56:19 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: alex | Status: FAILED | Login Failed
+2026-10-27 08:56:23 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: alex | Status: FAILED | Login Failed
+2026-10-27 08:56:25 | WARNING | IP: 2400:adc3:114:9700:edb3:fdf6:73a2:ab31 | User: alex | Status: FAILED | Login Failed
+2026-10-27 10:46:00 | INFO | IP: 2400:adc3:114:9700:c472:ff58:fa9:bfa3 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 11:35:11 | INFO | IP: 2400:adc3:114:9700:c472:ff58:fa9:bfa3 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 11:35:37 | WARNING | IP: 2400:adc3:114:9700:c472:ff58:fa9:bfa3 | User: xmosd | Status: FAILED | Login Failed
+2026-10-27 12:19:24 | WARNING | IP: 2400:adc3:114:9700:c039:f995:22fb:d6a9 | User: Sndsnn | Status: FAILED | Login Failed
+2026-10-27 14:08:58 | WARNING | IP: 121.52.154.158 | User: Zamm | Status: FAILED | Login Failed
+2026-10-27 14:09:25 | WARNING | IP: 121.52.154.158 | User: Admin | Status: FAILED | Login Failed
+2026-10-27 14:09:25 | WARNING | IP: 121.52.154.158 | User: Admin | Status: FAILED | Login Failed
+2026-10-27 14:09:25 | WARNING | IP: 121.52.154.158 | User: Admin | Status: FAILED | Login Failed
+2026-10-27 14:09:42 | INFO | IP: 121.52.154.158 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 16:17:25 | WARNING | IP: 121.52.154.158 | User: Adbn | Status: FAILED | Login Failed
+2026-10-27 16:18:27 | WARNING | IP: 121.52.154.158 | User: Admin | Status: FAILED | Login Failed
+2026-10-27 16:18:39 | INFO | IP: 121.52.154.158 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 16:20:20 | WARNING | IP: 121.52.154.158 | User: Eeiu | Status: FAILED | Login Failed
+2026-10-27 16:20:43 | INFO | IP: 121.52.154.158 | User: admin | Status: SUCCESS | Login Successful
+2026-10-27 16:38:53 | WARNING | IP: 121.52.154.156 | User: sxakjdo | Status: FAILED | Login Failed
+2026-10-27 16:51:28 | WARNING | IP: 121.52.154.154 | User: asassa | Status: FAILED | Login Failed
+2026-10-27 16:52:04 | INFO | IP: 121.52.154.154 | User: admin | Status: SUCCESS | Login Successful

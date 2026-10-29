@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="auth-pending">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <!-- Login gate: send visitors who are not logged in to the login page -->
+  <script>
+    (function () {
+      var user = null;
+      try { user = localStorage.getItem("loggedInUser"); } catch (e) {}
+      if (!user) {
+        window.location.replace("login.html?next=courses.html");
+      } else {
+        document.documentElement.classList.remove("auth-pending");
+      }
+    })();
+  </script>
+  <style>
+    html.auth-pending body {
+      visibility: hidden; /* hide content until the login check passes */
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    /* Navigation Bar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ff9800;
+      padding: 10px 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav .logo {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ff9800;
+    }
+
+    /* Sections */
+    section {
+      padding: 80px 20px 40px; /* extra top padding because nav is fixed */
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .video-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    iframe {
+      flex: 1 1 280px;
+      max-width: 380px;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      height: auto;
+      border: none;
+    }
+
+    /* Homepage Hero */
+    #home {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      padding: 100px 20px;
+    }
+    #home h1 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+    #home p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+      nav {
+        padding: 10px 14px;
+      }
+      nav ul li {
+        margin-left: 14px;
+      }
+      section {
+        padding: 70px 14px 30px;
+      }
+      iframe {
+        max-width: 100%;
+      }
+      #home h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home" class="logo">MyLogo</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+    </ul>
+  </nav>
+
+  <!-- Homepage Section -->
+ 
+
+  <!-- Courses Section -->
+  <section id="courses">
+    <h2>Programming</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID1" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID2" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID3" allowfullscreen></iframe>
+    </div>
+
+    <h2>Cybersecurity</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID4" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID5" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID6" allowfullscreen></iframe>
+    </div>
+
+    <h2>IT Basics</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID7" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID8" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID9" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
